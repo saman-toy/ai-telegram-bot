@@ -2,8 +2,8 @@ import openai
 from aiogram import Bot, Dispatcher, executor, types
 import os
 
-BOT_TOKEN = os.getenv("8457495921:AAEapf2A8xbjkq_sUbnc1qpU9rJb_RvnkcY")
-OPENAI_KEY = os.getenv("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")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+OPENAI_KEY = os.getenv("OPENAI_KEY")
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
